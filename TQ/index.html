@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Gallery App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="container">
+    <div class="quote-card">
+      <div class="quote-header">
+        <span class="quote-count"></span>
+        <div class="language-options">
+          <select>
+            <option value="en">English</option>
+            <!-- Add more language options if needed -->
+          </select>
+        </div>
+        <div class="share-options">
+          <button><i class="fa fa-share"></i></button>
+          <button><i class="fa fa-heart"></i></button>
+          <button><i class="fa fa-bookmark"></i></button>
+        </div>
+      </div>
+      <div class="quote-body">
+        <blockquote class="quote-text"></blockquote>
+        <div class="author-info">
+          <span ><i class="author-name"></i></span>
+        </div>
+      </div>
+      <div class="quote-nav">
+        <button class="prev-quote"><i class="fa fa-arrow-left"></i></button>
+        <button class="next-quote"><i class="fa fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

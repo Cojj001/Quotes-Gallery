@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("images/pexels-francesco-ungaro-7898337.jpg");
+  }
+  
+  /* Quote Card Styles */
+  .quote-card {
+    background-color: #18151560;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.521);
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .quote-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .quote-count {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .language-options select {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .share-options button {
+    background-color: transparent;
+    border: none;
+    color: #888;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .quote-body {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .quote-text {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: aliceblue;
+  }
+  
+  .author-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: rgb(180, 180, 180);
+  }
+  
+  .author-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .author-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .quote-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .quote-nav button {
+    background-color: transparent;
+    border: none;
+    color: #888;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 480px) {
+    .quote-card {
+      padding: 10px;
+    }
+  
+    .quote-text {
+      font-size: 18px;
+    }
+  
+    .author-name {
+      font-size: 14px;
+    }
+  
+    .quote-nav button {
+      font-size: 18px;
+    }
+  }
